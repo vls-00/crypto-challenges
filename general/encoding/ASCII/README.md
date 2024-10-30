@@ -1,5 +1,6 @@
 ### Analysis
 This challenge is giving us an array of ordinals that we have to convert to ASCII.
+
 We need to parse each ordinal separately, convert it to ASCII and concatenate all together to ge tthe flag.
 
 ### Solution

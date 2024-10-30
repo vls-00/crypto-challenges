@@ -14,6 +14,3 @@ In this challenge we are able to send a malicious message to Bob. After reading 
 4. We now send the malicious request to Bob with: `g = A`, `p = p`, `A = (whatever number you want)`
 5. Bob calculates the secret key he used with Alice and sends it back as his public key `B`.
 6. We decrypt Alice's message using the special `B` Bob sent us.
-
-### Flag - 100 pts
-`crypto{n07_3ph3m3r4l_3n0u6h}`

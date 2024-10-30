@@ -4,9 +4,10 @@ This challenge is an introduction to Fermat's little theorem. We need to calcula
 * From Fermat's little theorem we have that:
     * if the base is not divisable by the exponent
     * `exponent = prime` 
+
 Then:
 
-    * `a^(p-1) ≡ 1 (mod p) => a^(p-1) mod p = 1 mod p => a^(p-1) mod p = 1`
+    a^(p-1) ≡ 1 (mod p) => a^(p-1) mod p = 1 mod p => a^(p-1) mod p = 1
 
 ### Solution
 1. Exponent = `65536`.

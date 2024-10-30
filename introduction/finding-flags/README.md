@@ -1,6 +1,2 @@
 ### Solution
-
-The exercise is straight up giving the flag.
-
-### Flag - 2 pts
-`crypto{?}`
+The exercise is straight up giving the flag in the description.

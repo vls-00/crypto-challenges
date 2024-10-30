@@ -1,9 +1,11 @@
 ### Analysis
 This challenge is giving us 2 images that we have to XOR together using their RGB values in order to find the flag.
 
-A question that might occur as it did to me:
+A question that might occur (like it did to me):
+
 ```
-Why is XORing these 2 encoded images giving us the flag without knowing the key?
+"Why is XORing these 2 encoded images giving us the flag without knowing the key?"
+
 By XORing these 2 encoded images is equivalent to XORing the 2 plaintext images based on this formula:
 
 `encoded_image_1 ^ encoded_image_2 = (plaintext_image_1 ^ key) ^ (plaintext_image_2 ^key) = plaintext_image_1 ^ plaintext_image_2`

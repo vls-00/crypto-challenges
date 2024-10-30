@@ -1,5 +1,7 @@
 ### Analysis
-This challenge is giving us a chains of XORs and we have to use the XOR properties in order to receive the flag. We will use the `Self-Inverse` property as well as the `Identity` and `Associative` properties.
+This challenge is giving us a chains of XORs and we have to use the XOR properties in order to receive the flag.
+
+We will use the `Self-Inverse` property as well as the `Identity` and `Associative` properties.
 
 ### Solution
 

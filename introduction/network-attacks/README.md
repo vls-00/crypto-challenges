@@ -16,6 +16,3 @@ That means we need to change something in the json in order to "buy" the flag.
 }
 ```
 2. Send it to receive the flag.
-
-### Flag - 5 pts
-`crypto{?}`

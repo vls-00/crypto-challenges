@@ -16,7 +16,6 @@ def modular_m_inverse(exponent, phi_N):
 p = 857504083339712752489993810777
 q = 1029224947942998075080348647219
 e = 65537
-N = p * q
 phi_N = phi_for_primes(p, q)
 
 print(f'Flag: {modular_m_inverse(e, phi_N)}')

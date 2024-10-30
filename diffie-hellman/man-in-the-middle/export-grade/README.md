@@ -1,5 +1,7 @@
 ### Analysis
-In this challenge we are able to manipulate the parameter negotiation message from Alice to Bob. In the first message from Alice we can see that she supports `DH64` which is Diffie-Hellman with 64 bit parameters. The keys of `DH64` can be brute forced using a commodity PC nowadays within seconds.
+In this challenge we are able to manipulate the parameter negotiation message from Alice to Bob. In the first message from Alice we can see that she supports `DH64` which is Diffie-Hellman with 64 bit parameters. 
+
+The keys of `DH64` can be brute forced using a commodity PC nowadays within seconds.
 
 ### Solution
 1. We intercept the first message from Alice which includes a lot of Diffie-Hellman algorithms with different key lengths.
