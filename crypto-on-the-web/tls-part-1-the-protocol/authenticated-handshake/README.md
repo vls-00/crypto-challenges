@@ -1,10 +1,10 @@
-### Analysis
+## Analysis
 For this challenge we will have to script provided by the exercise and fill in teh values
 in order to craft te client verify message. The exercise provides a `.pcapng` file which includes
 a TLS connection until the `Server Finished` message. It is also giving us the Ephemeral Diffie-Hellmann key
 which we can use to decrypt the conversation and see the TLS packets.
 
-### Solution
+## Solution
 1. Copy the python script locally provided by the exercise.
 2. Load the `.pcapng` on wireshark and decrypt it as we did in `Decrypting TLS 1.3` challenge.
 3. Fill in the `client_handshake_traffic_secret` value with the key found in the keylog file. 

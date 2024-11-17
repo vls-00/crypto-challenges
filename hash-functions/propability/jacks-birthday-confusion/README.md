@@ -1,10 +1,10 @@
-### Analysis
+## Analysis
 This challenge is indeed the same as the birthday paradox.
 
 The challenge is asking to find the number of secrets we need given the propability (like the number of persons in the birthday paradox).
 * https://en.wikipedia.org/wiki/Birthday_problem
 
-### Solution
+## Solution
 1. From the wiki page we can take the birthday paradox equation which is:
 
 ![alt text](image.png)

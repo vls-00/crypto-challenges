@@ -1,10 +1,10 @@
-### Analysis
+## Analysis
 This challenge is teaching us about wireshark but we should all know a thing or two already.
 
 The challenge requires us to find how many packets where sent to cryptohack.org (with IP `178.62.74.206`) which can be done by a simple display filter on the `.pcapng` file provided.
 * Alternative solution: use the statistics tab.
 
-### Solution
+## Solution
 1. Open the provided file inside wireshark: `file -> open`
 2. Apply the display filter for destination IP: `ip.dst_host==178.62.74.206`
 
@@ -12,7 +12,7 @@ The challenge requires us to find how many packets where sent to cryptohack.org 
 
 3. Count the rows
 
-#### Alternatively:
+### Alternatively:
 1. Open the statistics tab and go to `IPV4 statistics -> Destinations and Ports`
 
 ![alt text](image-1.png)

@@ -1,7 +1,7 @@
-### Analysis
+## Analysis
 In this challenge we have to do a MITM attack in Alice's and Bob's key exchange messages. More specifically we will pick our secret, call is `c`, and trick both Bob and Alice into crafting a shared secret key with us.
 
-### Solution
+## Solution
 1. Pick a random prime number `c` as our secret (let's say 7)
 2. The first message we receive is from Alice and includes `p`, `g`, `A`.
 3. We will calculate our public key `C` using the `p`, `g` parameters and we will send it to Bob. Bob will now calculate the same shared key with us.

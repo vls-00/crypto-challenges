@@ -1,9 +1,9 @@
-### Analysis
+## Analysis
 To solve the challenge we will have to find the cipher suite used by `tls1.cryptohack.org:443` when we initiate a connection with `TLS 1.2`. 
 
 Browsers nowadays will try and communicate using `TLS 1.3` if it is supported so we will have to use some other tool in order to enforce `TLS 1.2`.
 
-### Solution
+## Solution
 1. We can use the following command to get the `TLS 1.2` information from the server by using `openssl`:
 
 ```bash

@@ -1,9 +1,9 @@
-### Analysis
+## Analysis
 * This challenge is not associated with encryption but rather an injection attack.
 * The injection attack can be immediately identified because the user input is used unsanitised inside the JWT payload.
 * One more important thing to note for this challenge and why our injection will work is how JSON duplicate values are handled. Inside a JSON object any duplicate values overwrite the previous value with the same identifier when it get's deserialised.
 
-### Solution
+## Solution
 1. After looking at the source code we can notice the following code:
 
 ![alt text](image.png)

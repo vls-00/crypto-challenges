@@ -1,8 +1,8 @@
-### Analysis
+## Analysis
 This challenge is giving us an RSA key public key and is asking us to find a certificate that uses the key's parameters which are the modulus and the exponent. The challenge is also teaching about certificate trasparency and we can use the website `https://crt.sh/` to search for transparent certificates.
 * Note: We do not have to take the exponent into consideration as almost all certificates have the same exponent (65537). The modulus is sufficient in order to find the certificate.
 
-### Solution
+## Solution
 
 1. We extract the modulus from the key.
 2. We convert it to hex and remove the first 2 characters which are `0x`.

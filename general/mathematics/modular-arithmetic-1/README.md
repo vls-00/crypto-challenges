@@ -1,4 +1,4 @@
-### Analysis
+## Analysis
 This challenge is an indtroduction to modular arithmetic. 
 
 `a ≡ b mod m -> a mod m = b mod m`
@@ -10,7 +10,7 @@ Example:
 * 11/6 = 1 with remainder 5
 * The smaller `x` for 11 and `x` in order for them to be congruent modulo is 5
 
-### Solution
+## Solution
 
 I took the given numbers which are 11 , 8146798528947 and modulo them with their respective m which is 6, 17.
 That gives us 5 for the first one and 4 for the second one. The flag is the smaller of the two.

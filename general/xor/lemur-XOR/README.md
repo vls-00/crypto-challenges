@@ -1,4 +1,4 @@
-### Analysis
+## Analysis
 This challenge is giving us 2 images that we have to XOR together using their RGB values in order to find the flag.
 
 A question that might occur (like it did to me):
@@ -15,7 +15,7 @@ can result in an image that is somewhat the first image embedded inside the othe
 This happens in situations like this where the one of images is just a white background with black text in the middle.
 ```
 
-### Solution
+## Solution
 
 1. We will need the PIL library to work with images
 2. We will also use numpy library which is widely used in ML because it has built-in easy to use functions to convert images or data into arrays and easily work with them.

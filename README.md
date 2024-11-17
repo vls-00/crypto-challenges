@@ -3,7 +3,7 @@
 
 Each file includes a `README.md` with the solutions and the corresponding python script (if needed).
 
-### Challenge Categories Solved
+## Challenge Categories Solved
 * Introduction
 * General
 * Crypto On The Web
