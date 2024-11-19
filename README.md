@@ -3,13 +3,14 @@
 
 Each file includes a `README.md` with the solutions and the corresponding python script (if needed).
 
-## Challenge Categories Solved
+## Challenge Categories Included:
 * Introduction
 * General
 * Crypto On The Web
-* Hash Functions
 * Diffie-Hellman
 * RSA
+* Hash Functions
+* Misc
 
 # ⚠️Disclaimer
 * Give every challenge the appropriate research and time before seeing the solution.
