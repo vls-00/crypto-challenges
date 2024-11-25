@@ -7,6 +7,7 @@ Each file includes a `README.md` with the solutions and the corresponding python
 * Introduction
 * General
 * Crypto On The Web
+* Symmetric Ciphers
 * Diffie-Hellman
 * RSA
 * Hash Functions

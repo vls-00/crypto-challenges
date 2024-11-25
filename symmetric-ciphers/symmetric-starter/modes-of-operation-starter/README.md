@@ -1,0 +1,2 @@
+## Solution
+This challenged provides us with a decrypt function so we just have to take the encrypted flag and decrypt it using the decrypt endpoint. Don't forget to convert the hex to bytes after getting the plaintext.
