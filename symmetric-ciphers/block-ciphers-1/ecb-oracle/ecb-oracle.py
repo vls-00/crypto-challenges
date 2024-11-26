@@ -1,6 +1,6 @@
 import requests as rq
 import json
-from Crypto.Util.Padding import pad, unpad
+from Crypto.Util.Padding import pad
 
 def find_pad_border(original_size):
     test_hex = "ff"
@@ -25,10 +25,12 @@ flag_size = (ct_size - pad_border * 2) // 2
 
 possible_characters = "abcdefghijklmnopqrstuvwxyz0123456789_"
 lookup = {}
-flag =  "}"
+flag = "}"
+block_number = 1
 
 # Add 1 more to the border because we already know that the last character is '}', so we start by pushing 2 characters
 pad_border += 1
+
 
 for i in range(flag_size - len("crypto{}")):
     # Build the lookup table for each character
@@ -42,13 +44,15 @@ for i in range(flag_size - len("crypto{}")):
     prefix = ""
     for j in range(pad_border):
         prefix += "ff"
-        
+    
     response = bytes.fromhex(json.loads(rq.get(url + "/encrypt/" + prefix + "/").content.decode())["ciphertext"])
     
     # Take the corresponding character from the dictionary that matches the last 16 bytes of the response (pushed flag characters)
-    flag = lookup[response[(len(response)-16):]] + flag
-    print(f"Current flag: {flag}")
+    flag = lookup[response[32:48]] + flag
+
+    print(f"[+] Current flag: {flag}")
     lookup.clear()
     
-print("Done!")
+print("----Done!----")
+print("Flag: crypto" + "{" + flag)
 
