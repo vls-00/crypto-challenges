@@ -47,6 +47,4 @@ That means we have to check in the response accordingly and not only in the last
 
 Note 2: We only check for alphanumeric characters, numbers and '_'. Nothing else can be contained in the flag.
 
-Note 3: The complexity is: possible_characters * length.
-
-Note 4: In this script, we dont check for 'crypto{' characters because we know the flag format, it is also assumed that the lastcharacter is '}'.
+Note 3: In this script, we dont check for 'crypto{' characters because we know the flag format, it is also assumed that the lastcharacter is '}'.
