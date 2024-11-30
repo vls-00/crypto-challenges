@@ -1,5 +1,5 @@
 # Cryptography Challenges
-⛓️‍💥🕵️ This repository includes my solutions of the challenges offered by `Cryptohack.org`.
+⛓️‍💥🕵️ This repository includes my solutions of the challenges offered by `cryptohack.org`.
 
 Each file includes a `README.md` with a solution analysis and the corresponding python script (if needed).
 
