@@ -1,7 +1,7 @@
 ## Analysis
-In this challenge the server has a custom CFB-8 encryption and decryption mechanism. The interesting thing here is that we can reset our passowrd to the server by giving out custom ciphertext and custom IV. How can this be manipulated?
+In this challenge the server has a custom CFB-8 encryption and decryption mechanism. The interesting thing here is that we can reset our password to the server by giving out custom ciphertext and custom IV. How can this be manipulated?
 
-After a closer look we can see that the state that gets encrypted is shifter by 1 byte in each iteration:
+After a closer look we can see that the state that gets encrypted is shifted by 1 byte in each iteration:
 ```
 state = state[1:] + bytes([ct[i]])
 ```

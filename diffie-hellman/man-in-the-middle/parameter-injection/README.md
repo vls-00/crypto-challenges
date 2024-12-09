@@ -10,5 +10,5 @@ In this challenge we have to do a MITM attack in Alice's and Bob's key exchange 
 6. We calculate the same shared key with alice using modular exponentiation from the previous challenges. We also need Alice's public key A in order to make the shared secret key that will decrypt Alice's messages.
 7. We can now decrypt Alice's message she encrypted with the shared key we also have. For the decryption we will use the AES decryption method provided in the previous challenge.
 
-Note: If we also wanted to decrypt Bob's mesasges we would have to calculate another shared key using Bob's public key `B`.
+Note: If we also wanted to decrypt Bob's messages we would have to calculate another shared key using Bob's public key `B`.
 
