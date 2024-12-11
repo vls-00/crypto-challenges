@@ -4,6 +4,7 @@
 Each file includes a `README.md` with a solution analysis and the corresponding python script (if needed).
 
 ## Challenge Categories Included:
+* Elliptic Curves
 * Crypto On The Web
 * Diffie-Hellman
 * General

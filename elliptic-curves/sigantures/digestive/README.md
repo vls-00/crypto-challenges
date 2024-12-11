@@ -12,3 +12,5 @@ So we take advantage of the JSON property that duplicate values overwrite the pr
 `{"admin": false, "username": "test", "admin": true}` 
 
 by using the signature from  `{"admin": false, "username": "test"}`
+
+ECDSA Algorithm: https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
